@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+body {
+    color: #fff;
+    
+    background: #3498db;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+.form-control{
+    height: 41px;
+    background: #f2f2f2;
+    box-shadow: none !important;
+    border: none;
+    width: 100%;
+}
+.form-control:focus{
+    background: #e2e2e2;
+}
+.form-control, .btn{        
+    border-radius: 3px;
+}
+.signup-form{
+    width: 390px;
+    margin: 30px auto;
+    
+}
+.signup-form form{
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    
+}
+.signup-form h2 {
+    color: #333;
+    font-weight: bold;
+    margin-top: 0;
+    
+}
+  
+.signup-form .form-group{
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.signup-form .btn{        
+    font-size: 16px;
+    font-weight: bold;
+    background: #3498db;
+    border: none;
+    min-width: 140px;
+    cursor: pointer;
+}
+.signup-form .btn:hover, .signup-form .btn:focus{
+    background: #34db82 !important;
+    outline: none;
+}
+
+/* menu */
+.menu{
+    height: 10vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(61, 115, 151));
+    display: flex;
+    justify-content: right;
+    align-items: center;
+   
+    
+    
+  }
+   .menu ul
+{
+    display: flex;
+    padding: 10px 40px;
+    text-transform: capitalize;
+}
+.menu ul li
+{
+    padding: 10px 20px;
+    list-style: none;
+   
+}
+.menu ul li a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+   
+    color: white;
+    
+}
+.menu ul li a:hover{
+    
+    
+    background: #2980b9;
+    padding: 5px 5px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    
+    
+}
+/* footer  */
+  .footer{
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 90px;
+    height: 8vh;
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(61, 115, 151));
+    display: flex;
+    justify-content: center;
+    
+}
+.footer p{
+    
+    margin-top: 25px;
+}  
+
+
